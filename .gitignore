@@ -1,0 +1,9 @@
+# Ignore Terraform state files
+*.tfstate
+*.tfstate.*
+*.tfvars
+
+# Ignore files related to sensitive info and IDEs
+*.log
+*.lock
+*.swp
