@@ -1,6 +1,6 @@
 provider "google" {
-  credentials = file("devsecops-444309-a9a87b9171cf.json")
-  project = "devsecops-444309"
+  credentials = var.GOOGLE_CREDENTIALS_JSON
+  project = var.project_id
   region  = "us-central1"
 }
 
